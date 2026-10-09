@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #001f4d; /* dark navy blue */
+  color: #ffffff; /* white text */
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  line-height: 1.6;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: #00bfff; /* bright sky blue */
+  margin-bottom: 0.3rem;
+  letter-spacing: 3px;
+  text-shadow: 0 0 8px #00bfffaa;
+}
+
+header p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  color: #80d4ff;
+  margin-bottom: 2.5rem;
+  text-shadow: 0 0 5px #80d4ffaa;
+}
+
+section {
+  background-color: #003366; /* slightly lighter blue */
+  border-radius: 12px;
+  padding: 30px 35px;
+  margin-bottom: 35px;
+  box-shadow: 0 6px 15px #00000099;
+  border: 1px solid #00bfff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 10px 30px #00bfffcc;
+  transform: translateY(-6px);
+  border-color: #80d4ff;
+}
+
+h2 {
+  font-size: 2.25rem;
+  color: #00bfff;
+  border-bottom: 3px solid #80d4ff;
+  padding-bottom: 10px;
+  margin-bottom: 22px;
+  letter-spacing: 1.6px;
+  text-shadow: 0 0 8px #00bfffaa;
+}
+
+p, li {
+  font-size: 1.15rem;
+  color: #e0e0e0;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 22px;
+}
+
+a {
+  color: #00bfff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #80d4ff;
+  text-decoration: underline;
+  text-shadow: 0 0 8px #80d4ffcc;
+}
+
+.button, button {
+  background-color: #00bfff;
+  border: none;
+  border-radius: 30px;
+  color: #001f4d;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 14px 36px;
+  box-shadow: 0 8px 20px #00bfffaa;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.button:hover, button:hover {
+  background-color: #80d4ff;
+  box-shadow: 0 12px 30px #80d4ffcc;
+}
+
+footer {
+  text-align: center;
+  color: #80d4ff;
+  font-size: 1rem;
+  margin-top: 70px;
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
